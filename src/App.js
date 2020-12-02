@@ -30,7 +30,7 @@ function App() {
     }
   ]
   return (
-    <div>
+    <div className="container mt-3" id="my-react-app">
       {tweetList.map((item, index) => {
         return <Tweet 
           key={index}
@@ -45,3 +45,13 @@ function App() {
 }
 
 export default App;
+// npm install bootstrap
+
+/*
+Om vi har klonat ner ett projekt:
+1. npm install
+2. npm start
+
+När vi har projektet på plats och vill installera bootstrap
+1. npm install bootstrap
+*/
